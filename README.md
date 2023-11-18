@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Consultor de Tempo</h1>
-  <img src="./timeconsultant.gif" alt="Ícone de busca" width="50">
+  <img src="./weatherFinder.gif" alt="Ícone de busca" >
 </div>
 
 > ## Descrição
