@@ -15,7 +15,7 @@
 
 > ## Como usar
 
-1. Faça o clone deste repositório: {{repositorio}}
+1. Faça o clone deste repositório: https://github.com/tiagofmuniz/weatherFinder.git
 2. Abra o arquivo `index.html` em seu navegador.
 3. Digite o nome da cidade na caixa de entrada.
 4. Clique no botão de busca ou pressione Enter para obter a previsão do tempo para a cidade inserida.
