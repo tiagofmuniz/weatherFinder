@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather Forecast</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class=".search-container">
+        <input class="input-city" placeholder="Digite o nome da cidade" />
+        <button onclick="search()">
+          <img
+            class="search"
+            src="https://www.svgrepo.com/show/488200/find.svg"
+          />
+        </button>
+      </div>
+      <div class="content">
+        <h2 class="city"></h2>
+        <p class="temp"></p>
+
+        <div class="sky">
+          <img class="icon" src="https://openweathermap.org/img/wn/04n.png" />
+          <p class="descricao"></p>
+        </div>
+
+        <p class="moisture"></p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+
+  </body>
+</html>
